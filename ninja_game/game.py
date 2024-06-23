@@ -17,7 +17,7 @@ class Game:
     def __init__(self):
         pygame.init()
 
-        pygame.display.set_caption('cha hua pro')
+        pygame.display.set_caption('I want to be Ninja')
         self.screen = pygame.display.set_mode((640, 480))
         self.display = pygame.Surface((320, 240), pygame.SRCALPHA)
         self.display_2 =pygame.Surface((320, 240))
