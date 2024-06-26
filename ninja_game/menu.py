@@ -33,6 +33,10 @@ def draw_text(text, font, text_col, x, y):
     img = font.render(text, True, text_col)
     screen.blit(img, (x, y))
 
+pygame.mixer.music.load('data/music.wav')
+pygame.mixer.music.set_volume(0.5)
+pygame.mixer.music.play(-1)
+
 run = True
 while run:
 
